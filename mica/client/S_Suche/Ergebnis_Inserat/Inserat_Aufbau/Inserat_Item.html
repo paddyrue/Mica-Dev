@@ -1,0 +1,68 @@
+<!--0.2.1 Hier wird der Inhalt und Aufbau eines einzelnen Inserats definiert-->
+<template name="InseratItem">
+  <div class="Inserat">
+    <div class="col-md-12">
+        <!--Image+Title einfügen-->
+          <a href="{{pathFor 'inseratPage'}}">
+            <div class="row">
+              <div class="col-md-12">
+                <img class="img-responsive" src="{{img}}">
+                  <div class="text bild-headline">
+                    <div class="col-md-12">
+                      <h4>{{title}}</h4>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </a>
+        <!--Hardfacts einfügen-->
+          <div class="row Inserat-Variable-Hard">
+            <div class="col-md-12">
+              <span class="label label-default">{{hardfacts1}}</span>
+              <span class="label label-default">{{hardfacts2}}</span>
+              <span class="label label-default">{{hardfacts3}}</span>
+            </div>
+          </div>
+        <!--Matching einfügen-->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="progress">
+                <div class="progress-bar"
+                role="progressbar"
+                aria-valuenow="{{matching}}"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: {{matchingwidth}};">
+                {{matchingtext}}
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--Softfacts einfügen-->
+          <div class="row Inserat-Variable-Soft">
+            <div class="col-md-12">
+              <span class="label label-primary">{{softfacts1}}</span>
+              <span class="label label-primary">{{softfacts2}}</span>
+              <span class="label label-primary">{{softfacts3}}</span>
+              <span class="label label-primary">{{softfacts4}}</span>
+              <span class="label label-primary">{{softfacts5}}</span>
+            </div>
+          </div>
+        <!--Beschreibung einfügen-->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="XY">
+                {{beschreibung}}
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <a href="{{pathFor 'inseratEdit'}}">Bearbeiten</a>
+            </div>
+          </div>
+
+    </div>
+  </div>
+</template>

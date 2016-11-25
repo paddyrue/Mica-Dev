@@ -1,0 +1,298 @@
+/* Objekt: Allgemein: Generelle Body Darstellung */
+body {
+    background-color: #f2f2f2;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 51px;
+}
+
+
+/* Objekt: Allgemein: Tag bzw. Klassen und Templates */
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+
+.label{
+  padding-top: 0.2em;
+  padding-right: 0.6em;
+  padding-bottom: 0.3em;
+  padding-left: 0.6em;
+}
+
+.label-default {
+    background-color: #ccc;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.label-primary {
+    background-color: #6eaef1;
+}
+
+.btn{
+  margin-top: 5px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #6eaef1;
+    border-color: #6eaef1;
+}
+
+.btn-danger{
+  background-color: #f36e77;
+  border-color: #f36e77;
+}
+
+.alert {
+  background-color: #f2dede;
+}
+
+/* Objekt: Allgemein: Überschriften */
+.h4{
+  margin-top: 0px;
+  margin-bottom: 550px;
+}
+
+
+/* Objekt: Navbar*/
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: none;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #e7e7e7;
+    border-color: #e7e7e7;
+    padding-top: 10px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.navbar-brand{
+  padding-left: 28px;
+}
+
+.navbar-nav{
+    padding-left: 10px;
+}
+
+/* Objekt: Login-Fenster in der Navbar*/
+#login-dropdown-list a {
+  padding-left: 15px;
+}
+
+.dropup, .dropdown {
+    position: relative;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.dropdown-menu span {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  line-height: 20px;
+  color: #bbb;
+  white-space: nowrap;
+}
+
+
+/* Objekt: Inserate */
+.mica-ad{
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid #e7e7e7;
+    border-color: #e7e7e7;
+}
+
+.bild-headline{
+  position: absolute;
+  bottom: 0px;
+  background-color: #fff;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  width: 100%;
+}
+
+.progress{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.progress-bar{
+  background-color: #53d5bc;
+}
+
+.Inserat-Variable-Hard{
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+.Inserat-Variable-Soft{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.Inserat-Variable-Soft .label{
+  line-height: 2;
+}
+
+.Inserat-Variable-Hard .label{
+  line-height: 2;
+}
+
+
+/* Seite: Suche */
+.mica-filter{
+  margin-bottom: 10px;
+}
+
+.mica-Filterung{
+  background-color: #fff;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+}
+
+
+/* Seite: Inserieren */
+.Inputbox{
+  margin-bottom: 5px;
+}
+
+.erster-Abschnitt{
+  margin-bottom: 10px;
+}
+
+.zweiter-Abschnitt{
+  margin-bottom: 10px;
+}
+
+.dritter-Abschnitt{
+  margin-bottom: 10px;
+}
+
+.feld-headline{
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+
+.mica-headline{
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+
+/* Seite: Home */
+.Home-Content{
+  background-color: #fff;
+}
+
+.img-responsive{
+  width: 100%;
+  min-width: 100%;
+}
+
+.Willkommenstext{
+  margin-bottom: 20px;
+}
+
+.Erklaerung-mica1{
+  background-color: #6eaef1;
+  color: #fff;
+}
+
+.Erklaerung-mica2{
+  background-color: #53d5bc;
+  color: #fff;
+}
+
+.glyphicon{
+  margin-top: 15px;
+}
+
+.bild-headline2{
+  margin-left: 0px;
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  top: 20%;
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 0 3px rgba(0,0,0,0.1);
+}
+
+.headerbild-mica{
+  background-color: #fff;
+  background-color: hsla(0, 0%, 100%, 0.8);
+}
+
+.text-content{
+  background-color: #f2f2f2;
+  color: #555555;
+}
+
+
+/* Header */
+#main-slider {
+    background-image: url(Slider1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-right: 0px;
+    padding-bottom: 150px;
+    padding-left: 0px;
+    color: #fff;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-slider .item:first-child {
+    top: auto;
+    position: relative;
+}
+
+.carousel-content{
+  text-shadow: 0 3px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.AppIcon{
+  max-width: 100px;
+  max-height: 100px;
+  min-width: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}

@@ -1,0 +1,11 @@
+<!--0.2 Hier wird die die untere Darstellung der Inseratauflistung erstellt-->
+<template name="InserateList">
+  {{> Filterung}}
+  <div class="Inserate">
+    {{#each Inserate}}
+      <div class="container mica-ad">
+        {{> InseratItem}}
+      </div>
+    {{/each}}
+  </div>
+</template>

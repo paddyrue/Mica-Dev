@@ -1,0 +1,24 @@
+<!--0.1 Hier wird die die obere Darstellung der Inseratauflistung erstellt-->
+<template name="Filterung">
+    <div class="container mica-Filterung">
+      <div class="row mica-headline">
+        <div class="col-md-12">
+          Hier können die Parameter für die WG-Suche ausgewählt werden, um so die passenden Inserate zu filtern.
+        </div>
+      </div>
+
+      <div class="row mica-filter">
+        <div class="col-md-8">
+          <!--Filtern-->
+          {{>button1}} {{>button2}} {{>button3}} {{>button4}} {{>button5}}
+        </div>
+
+        <div class="col-md-4">
+          <!--Sortieren-->
+          <div class="pull-right">
+            Sortieren nach:  {{>Sortieren}}
+          </div>
+        </div>
+      </div>
+    </div>
+</template>

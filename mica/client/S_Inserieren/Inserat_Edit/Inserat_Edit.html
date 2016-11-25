@@ -1,0 +1,100 @@
+<!--0.1 Hier wird die Inserat bearbeitet-->
+<!--ACHTE AUF DIE 2 WEITEREN VARIABLEN id UND value-->
+<template name="inseratEdit">
+    <div class="container">
+      <!--Überschrift-->
+      <div class="row mica-headline">
+        <div class="col-md-12">
+          Bearbeite hier dein WG-Inserat:
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <form class="Input-Inserat">
+          <!--erster Abschnitt-->
+          <div class="row erster-Abschnitt"><div class="feld-headline">Informationen:</div>
+            <div class="col-md-12">
+
+              <div class="row Inputbox">
+                <input type="text" class="form-control" name="img" id="img" value="{{img}}" placeholder="Bild hinzufügen">
+              </div>
+
+              <div class="row Inputbox">
+                <input type="text" class="form-control" name="title" id="title" value="{{title}}" placeholder="Betreff">
+              </div>
+
+              <div class="row Inputbox">
+                <textarea class="form-control" rows="3" name="beschreibung" id="beschreibung" value="{{beschreibung}}" placeholder="Beschreibung der WG"></textarea>
+              </div>
+
+            </div>
+          </div>
+          <!--zweiter Abschnitt-->
+          <div class="row zweiter-Abschnitt"><div class="feld-headline">Generelle Fakten:</div>
+            <div class="col-md-12">
+
+              <div class="row Inputbox">
+                <input type="text" class="form-control" name="hardfacts1" id="hardfacts1" value="{{hardfacts1}}" placeholder="Hardfact #1">
+              </div>
+
+              <div class="row Inputbox">
+                <input type="text" class="form-control" name="hardfacts2" id="hardfacts2" value="{{hardfacts2}}" placeholder="Hardfact #2">
+              </div>
+
+              <div class="row Inputbox">
+                <input type="text" class="form-control" name="hardfacts3" id="hardfacts3" value="{{hardfacts3}}" placeholder="Hardfact #3">
+              </div>
+
+            </div>
+          </div>
+          <!--dritter Abschnitt-->
+          <div class="row dritter-Abschnitt"><div class="feld-headline">Interessen und Vorlieben:</div>
+            <div class="col-md-12">
+
+              <div class="row Inputbox">
+                <input type="text" class="form-control" name="matching" id="matching" value="{{matching}}" placeholder="Matchinggrad">
+              </div>
+
+              <div class="row Inputbox">
+                <input type="text" class="form-control" name="matchingwidth" id="matchingwidth" value="{{matchingwidth}}" placeholder="Breite des Matchingbalkens in %">
+              </div>
+
+              <div class="row Inputbox">
+                <input type="text" class="form-control" name="matchingtext" id="matchingtext" value="{{matchingtext}}" placeholder="Matchinggrad in %">
+              </div>
+
+              <div class="row Inputbox">
+                <input type="text" class="form-control" name="softfacts1" id="softfacts1" value="{{softfacts1}}" placeholder="Softfact #1">
+              </div>
+
+              <div class="row Inputbox">
+                <input type="text" class="form-control" name="softfacts2" id="softfacts2" value="{{softfacts2}}" placeholder="Softfact #2">
+              </div>
+
+              <div class="row Inputbox">
+                <input type="text" class="form-control" name="softfacts3" id="softfacts3" value="{{softfacts3}}" placeholder="Softfact #3">
+              </div>
+
+              <div class="row Inputbox">
+                <input type="text" class="form-control" name="softfacts4" id="softfacts4" value="{{softfacts4}}" placeholder="Softfact #4">
+              </div>
+
+              <div class="row Inputbox">
+                  <input type="text" class="form-control" name="softfacts5" id="softfacts5" value="{{softfacts5}}" placeholder="Softfact #5">
+                </div>
+
+            </div>
+          </div>
+
+          <div class="row Inputbox">
+            <button type="submit" class="btn btn-primary" value="Inserieren">Bestätigen</button>
+          </div>
+
+          <div class="row Inputbox">
+            <a class="btn btn-danger delete" href="#">Inserat löschen</a>
+          </div>
+
+        </form>
+      </div>
+    </div>
+</template>
